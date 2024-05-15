@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+body {
+  /* Gradient from dark blue to light sky blue */
+  background: linear-gradient(to right, #00008b, #87ceeb);
+  /* Ensure gradient covers the whole viewport */
+  height: 100vh;
+  margin: 0;
 }
+

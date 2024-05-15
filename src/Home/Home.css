@@ -1,0 +1,72 @@
+.MainDiv{
+    height: 70vh;
+    width: 65vw;
+    background-color: aliceblue;
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border:  black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    overflow: scroll;
+
+}
+
+#MainBox{
+    height: 2rem;
+    width: 40%;
+    margin: 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.Headers{
+    margin-right: 15%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+/* #Activities{
+    display: block;
+} */
+
+#HeaderDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 16%;
+    align-items: center;
+    top: 0;
+    /* position: sticky; */
+    padding: 1%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    z-index: 1000;
+}
+
+.task{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 3rem;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: first baseline;
+    padding-left: 1%;
+}
+
+#Activities{
+    min-height: fit-content;
+    width: 65vw;
+    justify-content: space-between;
+
+}
+
+#verticalLine{
+    height: min-content;
+}
+
+#completedBtn{
+    margin-left: 5%;
+}
